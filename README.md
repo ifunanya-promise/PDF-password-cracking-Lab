@@ -37,7 +37,7 @@ I uploaded the protected PDF file to an online PDF hash extraction tool.
 
 The tool extracted the password hash in a format compatible with John the Ripper.
 
-![PDF hash](images/pdf-hash.png)
+![PDF hash](pdf-hash.png)
 
 ### Step 2 – Load Hash into Johnny
 
@@ -51,7 +51,7 @@ I initiated the password-cracking process using Johnny.
 
 The tool tested password candidates against the extracted hash until a matching password was found.
 
-![Johnny Password Cracking](images/johnny-cracking.png)
+![Johnny Password Cracking](johnny-cracking.png)
 
 ### Step 4 – Password Successfully Recovered
 
@@ -65,7 +65,7 @@ I opened the protected PDF in Adobe Acrobat Reader and entered the recovered pas
 
 The document opened successfully and displayed the captured flag.
 
-![Captured Flag](images/johnnyflag.png)
+![johnnyFlag](johnnyFlag.png)
 
 ### Captured Flag
 
@@ -93,7 +93,7 @@ I selected the PDF option and uploaded the second password-protected PDF file.
 
 The tool processed the document and generated its PDF hash.
 
-![Hash Calculator](images/HashCalculator.png)
+![Hash-Calculator](Hash-Calculator.png)
 
 ### Step 3 – Extract and Copy the Hash
 
@@ -123,7 +123,7 @@ The password cracker identified a matching password.
 
 **Recovered password:** `password1`
 
-![Password Crack](images/PasswordCrack.png)
+![Hash-Cracker](Hash-Cracker.png)
 
 ### Step 8 – Verify the Password
 
@@ -131,7 +131,7 @@ I entered the recovered password into the second PDF file.
 
 The document opened successfully, confirming that the password was correct.
 
-![Second PDF Unlocked](images/Second%20PDF%20Unlocked.png)
+![Second PDF Unlocked](Second%20PDF%20Unlocked.png)
 
 ---
 
